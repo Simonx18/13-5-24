@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Author from "../../model.js"; // Assicurati che il percorso sia corretto
+import Author from "../../model.js";
 export const authorRoute = Router();
 
 authorRoute.get("/", async (req, res, next) => {
